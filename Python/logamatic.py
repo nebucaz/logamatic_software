@@ -120,13 +120,13 @@ class logamatic2107 (Dust3964r,threading.Thread):
                 self.StateToDB("hc1_curve_m10",telegram[2])
 
             elif ID==b"\x81\x1E":
-                # Heating Circuit 2, characteristic curve +10°C
+                # Heating Circuit 2, characteristic curve +10ï¿½C
                 return
             elif ID==b"\x81\x1F":
-                # Heating Circuit 2, characteristic curve 0°C
+                # Heating Circuit 2, characteristic curve 0ï¿½C
                 return
             elif ID==b"\x81\x20":
-                # Heating Circuit 2, characteristic curve -10°C
+                # Heating Circuit 2, characteristic curve -10ï¿½C
                 return
 
             elif ID==b"\x84\x24":
